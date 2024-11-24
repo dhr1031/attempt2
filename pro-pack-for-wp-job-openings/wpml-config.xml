@@ -1,0 +1,26 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">awsm_job_form</custom-type>
+	</custom-types>
+	<custom-fields>
+		<custom-field action="copy">awsm_job_filled</custom-field>
+		<custom-field action="copy-once">awsm_jobs_form_builder</custom-field>
+		<custom-field action="copy-once">awsm_jobs_form_builder_other_options</custom-field>
+		<custom-field action="copy-once">awsm_jobs_form_applicant_notification</custom-field>
+		<custom-field action="copy-once">awsm_jobs_form_admin_notification</custom-field>
+	</custom-fields>
+	<admin-texts>
+		<key name="awsm_jobs_customize_job_listing_strings">
+			<key name="*" />
+		</key>
+		<key name="awsm_jobs_customize_job_detail_strings">
+			<key name="*" />
+		</key>
+		<key name="awsm_jobs_customize_form_strings">
+			<key name="*" />
+		</key>
+		<key name="awsm_jobs_customize_form_validation_notices">
+			<key name="*" />
+		</key>
+	</admin-texts>
+</wpml-config>

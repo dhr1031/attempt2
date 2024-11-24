@@ -1,0 +1,22 @@
+.wp-core-ui .awsm-jobs-overview-widget-wrapper select{
+	background: url('../img/drop-arrow.svg') no-repeat right center;
+	appearance: none;
+	padding: 5px 10px 5px 5px;
+	border: none;
+	font-size: 12px;
+}
+.wp-core-ui .awsm-jobs-overview-widget-wrapper select:focus{
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+.awsm-jobs-overview-widget-control-wrapper {
+    text-align: right;
+}
+.awsm-jobs-overview-chart-wrapper.awsm-jobs-overview-chart-loading {
+    opacity: 0.5;
+}
+.awsm-jobs-overview-applications-by-status-widget-wrapper .awsm-jobs-overview-chart-wrapper {
+	padding: 0;
+	margin: -25px 30px -25px 40px;
+}

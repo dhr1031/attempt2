@@ -1,0 +1,1146 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 General
+2.0 Job Openings
+	2.1 Email Notifications
+	2.2 Job Display Options
+3.0 Job Application
+	3.1 Rating
+	3.2 Notes
+	3.3 Activity Log
+	3.4 Mail
+	3.5 Form
+4.0 Job Form
+	4.1 Form Builder
+	4.2 Form Notifications
+5.0 Settings
+	5.1 Form Builder
+	5.2 Notification Templates
+	5.3 Shortcodes
+	5.4 Advanced
+	5.5 License
+6.0 Alerts
+7.0 Export
+8.0 Preloaders
+9.0 Print Styles
+	9.1 Applicant Details
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 General
+--------------------------------------------------------------*/
+.awsm-hidden,
+.awsm-jobs-hidden-template,
+.awsm-jobs-hidden-templates {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+2.0 Job Openings
+--------------------------------------------------------------*/
+.awsm-jobs-pro-post-state span {
+	margin-right: 3px;
+}
+
+/*--------------------------------------------------------------
+2.1 Email Notifications
+--------------------------------------------------------------*/
+.awsm-pro-forward-mail-container {
+	margin-bottom: 12px;
+	padding-top: 7px;
+}
+
+.awsm-pro-forward-mail-container input[type="text"] {
+    margin: 4px 0px 8px 0px;
+}
+
+/*--------------------------------------------------------------
+2.2 Job Display Options
+--------------------------------------------------------------*/
+
+.awsm-pro-generic-option-container:first-child {
+    padding: 10px 0px 16px;
+}
+
+.awsm-pro-generic-option-container:first-child .awsm-pro-generic-option-field {
+    margin-bottom: 10px;
+}
+
+.awsm-pro-generic-option-container:not(:first-child) .awsm-pro-generic-option-field {
+    margin-top: 0px;
+	margin-bottom: 16px;
+}
+
+/*--------------------------------------------------------------
+3.0 Job Application
+--------------------------------------------------------------*/
+.awsm-application-status-label {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 90%;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	padding: 5px 12px;
+}
+.awsm-application-publish-status {
+	background-color: #e3c600;
+}
+
+.awsm-application-progress-status {
+	background-color: #ca6e0a;
+}
+
+.awsm-application-shortlist-status {
+	background-color: #06d7ad;
+}
+
+.awsm-application-select-status {
+	background-color: #1ea508;
+}
+
+.awsm-application-reject-status,
+.awsm-application-trash-status {
+	background-color: #a92222;
+}
+
+/* application actions metabox style fix */
+#awsm-application-actions-meta .inside {
+	margin: 0;
+	padding: 0;
+}
+
+.awsm-applicant-details-repeater-group .awsm-applicant-details-list {
+	border: 1px solid #dadfe5;
+	margin: 15px 15px 15px 0px;
+}
+
+.awsm-applicant-details-repeater-group .awsm-applicant-details-list:last-child {
+	margin-bottom: 0;
+}
+
+.awsm-applicant-print-controls li:first-child {
+	border-top: 1px solid #dadfe5;
+}
+
+.awsm-applicant-print-control.button {
+    margin-right: 5px;
+}
+
+.awsm-applicant-print-message {
+	margin-top: 12px;
+}
+
+.awsm-jobs-application-list {
+	margin: 0;
+	padding: 0;
+}
+
+.awsm-jobs-application-list li {
+	margin-bottom: 9px;
+	width: 100%;
+	background: #EDF2F5;
+	padding: 10px 13px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-right: 0;
+	color: #23282D;
+	position: relative;
+}
+
+.awsm-jobs-application-list li p {
+	font-size: 14px;
+	margin: 0;
+}
+.awsm-jobs-application-list li p.description{
+	font-size: 12px;
+	color: #72777C;
+}
+.awsm-pro-applicant-multi-row-wrapper p {
+	font-size: 14px;
+}
+.awsm-applicant-image img {
+    border-radius: 0;
+}
+.awsm-application-activity-log{
+	padding-left: 16px;
+}
+.awsm-application-activity-log li{
+	position: relative;
+}
+.awsm-application-activity-log li::before{
+	content: "";
+	width: 3px;
+	height: 100%;
+	position: absolute;
+	top: 18px;
+	left: -13px;
+	background-color: #EFF4F6;
+}
+.awsm-application-activity-log li::after{
+	content: "";
+	width: 8px;
+	height: 8px;
+	background-color: #DADFE5;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	position: absolute;
+	left: -18px;
+	top: 9px;
+}
+
+/*--------------------------------------------------------------
+3.1 Rating
+--------------------------------------------------------------*/
+.star-rating .star.star-empty {
+	color: #777;
+}
+.star-rating {
+	overflow: hidden;
+	display: inline-block;
+	white-space: nowrap;
+	position: relative;
+	font-size: 0;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+.star-rating span {
+	display: inline-block;
+	margin-right: 2px;
+}
+.star-rating span:last-child {
+	margin: 0;
+}
+.star-rating-value {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+.awsm-application-rating-fieldset {
+	border: none;
+	padding: 0;
+	margin-left: 0;
+}
+
+.awsm-application-rating-fieldset label {
+	display: inline-block;
+}
+
+.awsm-application-rating-container {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
+}
+
+.awsm-application-rating-container * {
+	font-size: 1.4rem;
+}
+
+.awsm-application-rating-container>input {
+	display: none;
+}
+
+.awsm-application-rating-container>input+label {
+	font-family: 'dashicons';
+	display: inline-block;
+	overflow: hidden;
+	text-indent: 9999px;
+	width: 1em;
+	white-space: nowrap;
+	cursor: pointer;
+	margin: 0;
+}
+
+.awsm-application-rating-container>input+label:before {
+	display: inline-block;
+	text-indent: -9999px;
+	content: "\f154";
+	color: #777;
+}
+
+.awsm-application-rating-container>input:checked~label:before,
+.awsm-application-rating-container>input+label:hover~label:before,
+.awsm-application-rating-container>input+label:hover:before {
+	content: "\f155";
+	color: #ffb900;
+}
+
+.awsm-application-rating-container>.star-cb-clear+label {
+	text-indent: -9999px;
+	width: .5em;
+	margin-left: -.5em;
+}
+
+.awsm-application-rating-container>.star-cb-clear+label:before {
+	width: .5em;
+}
+
+.awsm-application-rating-container:hover>input+label:before {
+	content: "\f154";
+	color: #777;
+	text-shadow: none;
+}
+
+.awsm-application-rating-container:hover>input+label:hover~label:before,
+.awsm-application-rating-container:hover>input+label:hover:before {
+	content: "\f155";
+	color: #ffb900;
+}
+
+/*--------------------------------------------------------------
+3.2 Notes
+--------------------------------------------------------------*/
+.awsm-jobs-application-notes-field {
+	padding: 12px 0;
+}
+
+.awsm-jobs-note-content-wrapper {
+	width: 100%;
+}
+
+.awsm-jobs-note-content {
+	display: block;
+	padding-right: 16px;
+}
+
+.awsm-jobs-note-remove {
+	position: absolute;
+	right: 5px;
+	top: 2px;
+}
+.tagchecklist .ntdelbutton .awsm-jobs-note-remove .remove-tag-icon::before{
+	color: #7e8993;
+}
+
+/*--------------------------------------------------------------
+3.3 Activity Log
+--------------------------------------------------------------*/
+.awsm-application-activity-container {
+	margin-top: 14px;
+	max-height: 270px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/*--------------------------------------------------------------
+3.4 Mail
+--------------------------------------------------------------*/
+.awsm-applicant-meta-mail-main.posttypediv div.tabs-panel {
+	max-height: inherit;
+	overflow: hidden;
+	padding: 1.4em 1.2em;
+	background: none;
+	border: none;
+}
+
+.awsm-applicant-meta-mail-main .awsm-col {
+	box-sizing: border-box;
+}
+
+ul.awsm-applicant-meta-mail-tabs {
+	margin-bottom: -1px;
+	position: relative;
+	z-index: 2;
+	border-bottom: 1px solid #DADFE5;
+}
+
+ul.awsm-applicant-meta-mail-tabs li {
+	display: inline-block;
+	margin-bottom: 0;
+	padding: 0;
+}
+ul.awsm-applicant-meta-mail-tabs li.tabs{
+	border: none;
+	background: none;
+}
+
+.awsm-applicant-meta-mail-tabs li a {
+	padding: 12px 17px;
+	display: block;
+	font-weight: bold;
+	position: relative;
+}
+.awsm-applicant-meta-mail-tabs li a::after{
+	content: "";
+	width: 0;
+	height: 3px;
+	position: absolute;
+	left: 50%;
+	bottom: -1px;
+	background: #0271A1;
+	transition:  all 0.3s ease;
+}
+.awsm-applicant-meta-mail-tabs li a:hover::after{
+	width: 100%;
+	left: 0;
+	opacity: 0.6;
+}
+.awsm-applicant-meta-mail-tabs li.tabs a{
+	color: #0073aa !important;
+}
+.awsm-applicant-meta-mail-tabs li.tabs a::after{
+	width: 100%;
+	left: 0;
+	opacity: 1;
+}
+
+.awsm-applicant-meta-mail-tabs a:focus {
+	box-shadow: none;
+}
+
+.awsm-jobs-applicant-mail {
+	border: 1px solid #D2D2D2;
+	border-radius: 5px;
+	margin-bottom: 14px;
+	background: #f6f6f6;
+}
+
+.awsm-jobs-applicant-mail.open {
+	background: #fff;
+}
+
+.awsm-jobs-applicant-mail-header {
+	padding: 14px 20px;
+	cursor: pointer;
+}
+
+.awsm-jobs-applicant-mail-header::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.awsm-jobs-applicant-mail-header h3 {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	float: left;
+	margin: 0;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+.awsm-jobs-applicant-mail.open h3 {
+	font-weight: 600;
+}
+
+.awsm-jobs-applicant-mail-meta {
+	float: right;
+	margin: 0;
+}
+
+.awsm-jobs-applicant-mail-content {
+	display: none;
+	padding: 0 20px 10px;
+}
+
+.awsm-jobs-applicant-mail-content p {
+	margin: 0 0 20px;
+}
+
+.awsm-jobs-applicant-mail.open .awsm-jobs-applicant-mail-content {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+3.5 Form
+--------------------------------------------------------------*/
+/* .awsm-pro-application-form-section {
+	padding: 7px 0px;
+} */
+
+.awsm-wpjo-form-group:last-child,
+.awsm-wpjo-form-group.awsm-last-visible-group {
+	margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+4.0 Job Form
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+4.1 Form Builder
+--------------------------------------------------------------*/
+#awsm-job-forms-meta {
+	border-color: #DADFE5;
+	position: relative;
+}
+#awsm-job-forms-meta .inside {
+	margin: 0;
+	padding: 0;
+}
+
+#awsm-job-forms-meta .handlediv,
+#awsm-job-forms-meta .hndle,
+#awsm-job-forms-meta .postbox-header {
+    display: none;
+}
+
+.awsm-jobs-form-builder-main {
+	background: #fff;
+	max-width: 600px;
+	padding: 15px 25px 50px;
+}
+
+.awsm-job-form-builder-settings-link-container {
+    text-align: right;
+}
+
+.awsm-job-form-builder-settings-link-container a {
+	text-decoration: none;
+	color: #c3c4c7;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+
+.awsm-job-form-builder-settings-link-container a:hover {
+	color: #8c8f94;
+}
+
+.awsm-job-form-builder-settings-link-container .dashicons {
+	font-size: 1.4rem;
+}
+
+.button.awsm-add-form-field-row {
+    width: 100%;
+    text-align: center;
+	padding: 5px;
+}
+
+.awsm-jobs-form-builder-type-wrapper {
+	margin-top: 1em;
+}
+
+.awsm-jobs-form-builder-error {
+	margin-top: 32px;
+}
+
+/*--------------------------------------------------------------
+4.2 Form Notifications
+--------------------------------------------------------------*/
+.awsm-job-form-notifications-container {
+	margin: 25px 7px;
+}
+
+.awsm-job-form-notifications-container .awsm-settings-col-left {
+	padding-right: 14px;
+}
+
+.awsm-job-form-notifications-container .awsm-settings-aside {
+	margin-top: 0px;
+    border: 1px solid #e5e5e5;
+    padding: 20px 25px;
+    font-size: 12px;
+}
+
+.awsm-job-form-notifications-container .awsm-acc-main {
+	border-bottom: none;
+	margin-bottom: 12px;
+}
+
+.awsm-job-form-notifications-container .awsm-acc-head {
+	background: #fafafa;
+	color: #23282d;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.awsm-job-form-notifications-container .awsm-acc-content {
+    border: 1px solid #e5e5e5;
+	border-top: none;
+}
+
+.awsm-job-form-notifications-container .awsm-acc-main:last-child .awsm-acc-content:last-child {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+/*--------------------------------------------------------------
+5.0 Settings
+--------------------------------------------------------------*/
+.awsm_job_openings_page_awsm-jobs-settings-contact .awsm-job-admin-nav-header {
+	margin-top: 40px;
+}
+
+.awsm_job_openings_page_awsm-jobs-settings-contact .awsm-job-settings-wrap {
+	margin-top: 50px !important;
+}
+
+.awsm-settings-tab-wrapper {
+	visibility: hidden;
+}
+
+.awsm-settings-tab-wrapper .fs-ajax-spinner {
+	display: none;
+}
+
+.awsm-jobs-settings-subtitle {
+	margin-top: 0.5em;
+	padding: 10px 0;
+}
+
+.awsm-admin-settings .awsm-pro-application-form-section {
+	padding: 0;
+}
+
+.awsm-admin-settings .awsm-wpjo-form-group input:not([type='checkbox']):not([type='radio']),
+.awsm-admin-settings .awsm-wpjo-form-group select,
+.awsm-admin-settings .awsm-wpjo-form-group textarea {
+	width: 50em;
+}
+
+.awsm-acc-drag-control {
+	cursor: grab;
+	float: right;
+}
+
+.form-table td.awsm-form-table-acc-section {
+	padding: 15px 0 0 0;
+}
+/*--------------------------------------------------------------
+5.1 Form Builder
+--------------------------------------------------------------*/
+.awsm-job-fb-options-container textarea {
+	display: block;
+	width: 100%;
+}
+
+.awsm-job-fb-options-container p.description {
+	margin-top: -9px;
+}
+
+.awsm-fb-move-icon {
+	cursor: -webkit-grab;
+	cursor: grab;
+}
+
+.awsm-form-builder thead th {
+	text-align: left;
+	padding: 20px 0;
+}
+
+.awsm-form-builder td {
+	vertical-align: top;
+}
+
+.awsm-form-builder-cb-row {
+	text-align: center;
+	width: 12%;
+}
+
+.awsm-jobs-form-builder-head .awsm-jobs-form-builder-control {
+	padding: 10px;
+	border: none;
+	box-shadow: none;
+	min-height: 42px;
+}
+
+.awsm-jobs-form-builder-head input.awsm-jobs-form-builder-control {
+	font-size: 18px;
+}
+
+.awsm-jobs-form-builder-head .awsm-jobs-form-builder-control:hover {
+	background: rgba(255, 250, 204, 0.5);
+}
+
+.awsm-jobs-form-builder-head .awsm-jobs-form-builder-control:focus {
+	background: #fffacc;
+	color: #000;
+	box-shadow: none
+}
+
+.awsm-jobs-form-builder-head input,
+.awsm-jobs-form-builder-head textarea {
+	width: 100%;
+}
+
+.awsm-jobs-form-builder-field-label {
+	display: block;
+    margin-bottom: 7px;
+	font-weight: bold;
+}
+
+.awsm-builder-field-select-control {
+	min-width: 100%;
+}
+
+.awsm-jobs-form-element-main {
+	margin-bottom: 15px;
+}
+
+.awsm-jobs-form-element-head {
+	cursor: move;
+}
+
+.awsm-jobs-form-builder-footer .awsm-jobs-form-element-head {
+	cursor: pointer;
+}
+
+.awsm-jobs-form-element-head-title {
+	position: relative;
+	background: #fafafa;
+	color: #23282d;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+.awsm-jobs-form-element-head-title::after {
+	content: "\f140";
+	font: normal 20px/1 dashicons;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+}
+
+.awsm-jobs-form-element-main.open .awsm-jobs-form-element-head-title::after {
+	content: "\f142";
+}
+
+.awsm-jobs-form-element-head-title h3 {
+	margin: 0;
+	padding: 15px;
+	font-size: 1em;
+	line-height: 1;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.awsm-jobs-form-element-head-title span.awm-jobs-form-builder-input-type {
+	color: #666;
+	text-transform: capitalize;
+}
+
+.awsm-jobs-form-element-head-title span.awm-jobs-form-builder-input-type:not(empty)::before {
+	content: ": ";
+	/* display: inline-block; */
+}
+
+.awsm-jobs-form-element-content {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	border-top: none;
+	padding: 1px 15px 15px 15px;
+	line-height: 16px;
+	display: none;
+}
+
+.awsm-jobs-form-element-main.open .awsm-jobs-form-element-content {
+	display: block;
+}
+
+.awsm-jobs-form-element-main.ui-sortable-helper .awsm-jobs-form-element-content {
+	display: none;
+}
+
+.awsm-jobs-form-element-main.ui-sortable-placeholder {
+	border: 1px dashed #ccc;
+	visibility: visible !important;
+}
+
+.awsm-jobs-forms-list-table {
+	width: 75%;
+}
+
+.awsm-jobs-forms-list-table th {
+	font-weight: bold;
+	padding: 8px 12px;
+	font-size: 13px;
+}
+.awsm-jobs-forms-list-table td:first-child{
+	width: 7%;
+}
+
+.awsm-jobs-forms-list-table td{
+	border-bottom: 1px solid #dfdfdf;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.awsm-jobs-forms-list-table td .awsm-jobs-forms-list-title{
+	font-weight:bold;
+}
+
+.awsm-jobs-forms-list-table td .awsm-jobs-forms-list-actions{
+	font-size: 12px;
+	visibility: hidden;
+}
+
+.awsm-jobs-forms-list-table tr:hover td .awsm-jobs-forms-list-actions {
+    visibility: visible;
+}
+
+.awsm-jobs-forms-list-table.awsm-jobs-fb-actions-in-progress tbody tr {
+    opacity: 0.55;
+    pointer-events: none;
+}
+
+.awsm-jobs-forms-list-table tfoot tr {
+	background-color: #f6f7f7;
+}
+
+.awsm-jobs-forms-list-table tfoot td {
+	border: none;
+}
+
+.awsm-jobs-forms-list-table .awsm-jobs-forms-list-actions a {
+	margin-right: 5px;
+}
+
+.awsm-jobs-forms-list-table a.awsm-jobs-forms-list-delete-action {
+	color: #b32d2e;
+}
+
+.awsm-jobs-forms-list-table .awsm-jobs-forms-list-buttons {
+	text-align: right;
+}
+/*--------------------------------------------------------------
+5.2 Notification Templates
+--------------------------------------------------------------*/
+.awsm-jobs-pro-mail-template-subtitle {
+	padding-left: 3px;
+}
+
+/*--------------------------------------------------------------
+5.3 Shortcodes
+--------------------------------------------------------------*/
+.awsm-settings-shortcodes-table th.awsm-form-head-title {
+	padding: 0;
+}
+
+.awsm-settings-shortcodes-table th.awsm-form-head-title h2 {
+	font-size: 16px;
+}
+
+.awsm-settings-shortcodes-table tbody tr:last-child td {
+	padding-bottom: 43px;
+}
+
+.awsm-settings-shortcodes-aside {
+	margin-top: 40px;
+}
+
+.awsm-settings-shortcodes-aside h3,
+.awsm-settings-shortcodes-wrapper code {
+    font-size: 14px;
+}
+
+.awsm-settings-shortcodes-wrapper,
+.awsm-settings-shortcodes-wrapper code {
+	background: #e5e5e5;
+}
+
+.awsm-settings-shortcodes-wrapper {
+	border: 1px solid #ccc;
+	padding: 1px 5px 14px;
+	margin-bottom: 7px;
+}
+
+/*--------------------------------------------------------------
+5.4 Advanced
+--------------------------------------------------------------*/
+.awsm-manage-application-status-table {
+	width: 75%;
+}
+
+/*--------------------------------------------------------------
+5.5 License
+--------------------------------------------------------------*/
+.awsm-jobs-pro-instructions ol {
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+6.0 Alerts
+--------------------------------------------------------------*/
+.awsm-success-message,
+.awsm-error-message {
+	padding: 12px 25px;
+}
+
+.awsm-success-message p:empty,
+.awsm-error-message p:empty {
+	display: none;
+}
+
+.awsm-success-message p,
+.awsm-error-message p {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.awsm-success-message {
+	border: 1px solid #1ea508;
+}
+
+.awsm-error-message {
+	border: 1px solid #db4c4c;
+}
+
+.awsm-error-message li {
+	margin-left: 1.2em;
+	line-height: 1.8em;
+}
+
+.awsm-job-form-error {
+	color: #db4c4c;
+	font-weight: 500
+}
+
+.awsm-jobs-warning {
+    border-left-color: #ffb900;
+}
+
+/*--------------------------------------------------------------
+7.0 Export
+--------------------------------------------------------------*/
+.awsm-jobs-export-control-row:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.awsm-jobs-export-table fieldset label {
+	min-width: 8em;
+	vertical-align: baseline;
+}
+
+/*--------------------------------------------------------------
+8.0 Preloaders
+--------------------------------------------------------------*/
+.awsm-jobs-loading {
+	position: relative;
+}
+
+.awsm-jobs-loading-container::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5) url(../img/loading.svg) no-repeat center;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.awsm-jobs-loading-container.awsm-jobs-loading::after {
+	opacity: 1;
+	visibility: visible;
+}
+
+/*--------------------------------------------------------------
+Delete Status
+--------------------------------------------------------------*/
+
+.awsm-jobs-delete-status-modal {
+	position: fixed; 
+	z-index: 99999;
+	padding: 30px; 
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%; 
+	overflow: auto; 
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.awsm-jobs-delete-status-popup-on .awsm-jobs-delete-status-modal {
+	opacity: 1;
+    visibility: visible;
+}
+
+.awsm-jobs-delete-status-modal h2 {
+    margin: 0 0 20px;
+}
+
+.awsm-jobs-delete-status-modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	width: 100%;
+	max-width: 750px;
+	position: relative;
+	transform: translateY(50px);
+    transition: all 0.3s ease;
+	border-radius: 4px;
+}
+
+.awsm-jobs-delete-status-popup-on .awsm-jobs-delete-status-modal-content{
+	transform: none;
+}
+
+.awsm-jobs-delete-status-modal-head{
+	padding: 16px 60px 16px 30px;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+.awsm-jobs-delete-status-popup-close {
+	position: absolute;
+    right: 20px;
+    top: calc(50% - 11px);
+	background: url(../img/icon-close.svg) no-repeat center;
+	background-size: 16px;
+	width: 22px;
+    height: 22px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    text-indent: -999999px;
+}
+
+.awsm-jobs-delete-status-popup-close:hover{
+	outline: none;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.awsm-jobs-delete-status-modal-body{
+	padding: 20px 30px;
+}
+
+.awsm-jobs-delete-status-confirm-msg {
+	padding-bottom: 15px;
+}
+
+.awsm-jobs-delete-status-modal-body .awsm-jobs-delete-status-confirm-msg p,
+.awsm-jobs-delete-status-modal-body .awsm-jobs-move-status-modal-content p{
+	margin: 0 0 10px;
+}
+
+.awsm-ja-success-message,
+.awsm-select-status-error-message {
+	padding: 12px 25px;
+    margin-top: 10px;
+}
+
+.awsm-ja-success-message p:empty,
+.awsm-select-status-error-message p:empty {
+	display: none;
+}
+
+.awsm-ja-success-message p,
+.awsm-select-status-error-message p {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.awsm-ja-success-message {
+	border: 1px solid #1ea508;
+}
+
+.awsm-select-status-error-message {
+	border: 1px solid #db4c4c;
+}
+
+ul.awsm-jobs-move-status-list{
+	list-style: none;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+ul.awsm-jobs-move-status-list li{
+	margin-bottom: 8px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+ul.awsm-jobs-move-status-list li input{
+	margin: 0 !important;
+}
+
+
+/*--------------------------------------------------------------
+9.0 Print Styles
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+9.1 Applicant Details
+--------------------------------------------------------------*/
+
+@page {
+	size: A4;
+}
+@media print {
+  body.post-type-awsm_job_application {
+	font-size: 13px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #23282D;
+  }
+  .post-type-awsm_job_application #adminmenumain,
+  .post-type-awsm_job_application #screen-meta-links,
+  .post-type-awsm_job_application .postbox-header .handle-actions,
+  .post-type-awsm_job_application #awsm-application-actions-meta .postbox-header,
+  .post-type-awsm_job_application #major-publishing-actions,
+  .post-type-awsm_job_application .awsm-applicant-print-controls {
+	display: none;
+  }
+  .post-type-awsm_job_application .awsm-job-admin-nav-header {
+	  display: none;
+  }
+  .post-type-awsm_job_application #wpcontent {
+	margin-left: 0;
+  }
+  .post-type-awsm_job_application #wpfooter {
+	  display: none;
+  }
+  .post-type-awsm_job_application #wpbody-content {
+	margin-top: 0;
+  }
+  .post-type-awsm_job_application .awsm-jobs-applicant-mail-header h3 {
+	white-space: normal;
+  }
+}
+
+.awsm-job-move-application-wrapper {
+    display: none; 
+    margin-top: 15px;
+}
+
+/* .awsm-mv-hide {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0s 0.3s;
+}
+
+.awsm-show {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out;
+} */
+
+.awsm-job-move-application-container {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+.awsm-job-move-application-container .awsm-job-move-application-select {
+    width: 80%;
+}
+
+.awsm-job-move-application-container .awsm-job-move-application-btn {
+    margin-left: 5px;
+}

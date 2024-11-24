@@ -1,0 +1,1531 @@
+# Copyright (C) 2024 Pro Pack for WP Job Openings
+# This file is distributed under the same license as the Pro Pack for WP Job Openings package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pro Pack for WP Job Openings\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: AWSM innovations <hello@awsm.in>\n"
+"POT-Creation-Date: 2024-10-31 17:49+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pro-pack.php:194
+msgid "Activate License"
+msgstr ""
+
+#: pro-pack.php:194
+msgid "Manage License"
+msgstr ""
+
+#: pro-pack.php:231
+msgid "Update"
+msgstr ""
+
+#: pro-pack.php:214
+msgid "Activate"
+msgstr ""
+
+#: pro-pack.php:224
+msgid "Install"
+msgstr ""
+
+#: pro-pack.php:247
+msgid "WP Job Openings"
+msgstr ""
+
+#: pro-pack.php:248
+msgid "Pro Pack for WP Job Openings"
+msgstr ""
+
+#. translators: %1$s: main plugin, %2$s: current plugin, %3$s: minimum required version of the main plugin, %4$s: plugin updation link
+#: pro-pack.php:254
+msgid "%2$s plugin requires %1$s version %3$s. Please %4$s %1$s plugin to the latest version."
+msgstr ""
+
+#: pro-pack.php:251
+msgid "The plugin %2$s needs the plugin %1$s active. %4$s Please %3$s %1$s"
+msgstr ""
+
+#: pro-pack.php:355
+msgctxt "repeater"
+msgid "Add More"
+msgstr ""
+
+#: pro-pack.php:356
+msgctxt "repeater"
+msgid "Edit"
+msgstr ""
+
+#: pro-pack.php:357
+msgctxt "repeater"
+msgid "Update"
+msgstr ""
+
+#: pro-pack.php:358
+msgctxt "repeater"
+msgid "Delete"
+msgstr ""
+
+#: pro-pack.php:362
+msgctxt "file upload"
+msgid "Cancel"
+msgstr ""
+
+#: pro-pack.php:363
+msgctxt "file upload"
+msgid "Upload canceled."
+msgstr ""
+
+#: pro-pack.php:365
+msgctxt "file upload"
+msgid "Remove"
+msgstr ""
+
+#: pro-pack.php:387, inc/class-awsm-job-openings-pro-settings.php:1182, inc/templates/settings/form-builder.php:101, inc/templates/settings/form-builder.php:140
+msgid "Delete"
+msgstr ""
+
+#: pro-pack.php:388
+msgid "Are you sure you want to delete this form?"
+msgstr ""
+
+#: pro-pack.php:390
+msgid "Please select a status"
+msgstr ""
+
+#: pro-pack.php:391
+msgid "Are you sure you want to move application to another job?"
+msgstr ""
+
+#: pro-pack.php:639, pro-pack.php:785
+msgid "Filled"
+msgstr ""
+
+#: pro-pack.php:786
+msgid "Not Filled"
+msgstr ""
+
+#: pro-pack.php:790
+msgid "Select Filled"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:29
+msgid "Export"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:42, inc/templates/export/main.php:12
+msgid "Export Applications"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:54
+msgid "You are not authorized to make this request!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:58
+msgid "Invalid request!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:171, inc/class-awsm-job-openings-pro-meta.php:249
+msgid "Application ID"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:172
+msgid "Applicant Name"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:173, inc/class-awsm-job-openings-pro-settings.php:297
+msgid "Email"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:174, inc/class-awsm-job-openings-pro-meta.php:250
+msgid "Job ID"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:175, inc/class-awsm-job-openings-pro-meta.php:251
+msgid "Job Title"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:176, inc/class-awsm-job-openings-pro-meta.php:252
+msgid "Applied on"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:191, inc/class-awsm-job-openings-pro-main.php:123, inc/class-awsm-job-openings-pro-meta.php:377
+msgid "Rating"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-export.php:192, inc/class-awsm-job-openings-pro-main.php:120, inc/class-awsm-job-openings-pro-meta.php:259, inc/templates/export/main.php:101
+msgid "Status"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:645
+msgctxt "repeater"
+msgid "Add"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:646
+msgctxt "repeater"
+msgid "Cancel"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:981
+msgid "Drop files here or click to upload"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:982
+msgctxt "file upload"
+msgid "Uploading...."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:983
+msgctxt "file upload"
+msgid "Are you sure you want to cancel this upload?"
+msgstr ""
+
+#. translators: %s: maximum allowed file size
+#: inc/class-awsm-job-openings-pro-form.php:987
+msgid "Maximum allowed file size is %s."
+msgstr ""
+
+#. translators: %1$s: maximum allowed files for upload, %2$s: maximum allowed file size
+#: inc/class-awsm-job-openings-pro-form.php:989
+msgid "You can upload upto %1$s files, %2$s per file."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:991
+msgid "Sorry, it looks like you have already submitted an application for this job."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1023
+msgctxt "file upload"
+msgid "File upload failed. Maximum allowed file size is {{maxFilesize}}MB"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1024, inc/class-awsm-job-openings-pro-form.php:1134, inc/class-awsm-job-openings-pro-form.php:1757
+msgctxt "file upload"
+msgid "You are not allowed to upload more than the file limit: {{maxFiles}}."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1025
+msgctxt "file upload"
+msgid "You can't upload files of this type."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1099
+msgid "Please fill the required field."
+msgstr ""
+
+#. translators: %s: application form field label
+#: inc/class-awsm-job-openings-pro-form.php:1101
+msgid "%s is required."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1369
+msgid "Invalid field values. Please enter valid values and try again!"
+msgstr ""
+
+#. translators: %s: repeater limit
+#: inc/class-awsm-job-openings-pro-form.php:1395
+msgid "The maximum allowed repeated entries limit is %s."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1189
+msgid "File path is missing."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1185
+msgid "Invalid file path."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1268
+msgid "Please select a valid %s."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1361
+msgid "Invalid date format."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1504
+msgid "Private job submission is not allowed."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1780
+msgid "Error occurred: Invalid Field."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1790
+msgid "Error in upoading the file. Please refresh the page and retry."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1812
+msgid "Error in removing the file."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:1925
+msgid "Invalid form ID."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:60
+msgctxt "post status"
+msgid "New"
+msgstr ""
+
+#. translators: %s: posts count with publish status
+#: inc/class-awsm-job-openings-pro-main.php:62
+msgid "New <span class=\"count\">(%s)</span>"
+msgid_plural "New <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-main.php:66
+msgctxt "post status"
+msgid "Trashed"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:72
+msgctxt "post status"
+msgid "In Progress"
+msgstr ""
+
+#. translators: %s: posts count with progress status
+#: inc/class-awsm-job-openings-pro-main.php:74
+msgid "In Progress <span class=\"count\">(%s)</span>"
+msgid_plural "In Progress <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-main.php:78
+msgctxt "post status"
+msgid "Shortlisted"
+msgstr ""
+
+#. translators: %s: posts count with shortlisted status
+#: inc/class-awsm-job-openings-pro-main.php:80
+msgid "Shortlisted <span class=\"count\">(%s)</span>"
+msgid_plural "Shortlisted <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-main.php:84
+msgctxt "post status"
+msgid "Rejected"
+msgstr ""
+
+#. translators: %s: posts count with rejected status
+#: inc/class-awsm-job-openings-pro-main.php:86
+msgid "Rejected <span class=\"count\">(%s)</span>"
+msgid_plural "Rejected <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-main.php:90
+msgctxt "post status"
+msgid "Selected"
+msgstr ""
+
+#. translators: %s: posts count with selected status
+#: inc/class-awsm-job-openings-pro-main.php:92
+msgid "Selected <span class=\"count\">(%s)</span>"
+msgid_plural "Selected <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-main.php:122, inc/class-awsm-job-openings-pro-meta.php:41, inc/class-awsm-job-openings-pro-meta.php:374
+msgid "Notes"
+msgstr ""
+
+#. translators: %s: Job application notes count
+#: inc/class-awsm-job-openings-pro-main.php:143
+msgid "%s Note"
+msgid_plural "%s Notes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-main.php:173, inc/class-awsm-job-openings-pro-main.php:183
+msgid "Forms"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:174, inc/class-awsm-job-openings-pro-settings.php:109, inc/templates/export/main.php:79
+msgid "Form"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:175, inc/class-awsm-job-openings-pro-main.php:178, inc/templates/settings/form-builder.php:120
+msgid "New Form"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:176
+msgid "Add New Form"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:177
+msgid "Edit Form"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:179
+msgid "Search Form"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:180
+msgid "No Forms found"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:181
+msgid "No Forms found in Trash"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:182
+msgid "Parent Form :"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:184
+msgid "View Form"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:185
+msgid "View Forms"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:186, inc/class-awsm-job-openings-pro-main.php:232
+msgid "Form published."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:187
+msgid "Form published privately."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:188
+msgid "Form reverted to draft."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:189
+msgid "Form scheduled."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:190, inc/class-awsm-job-openings-pro-main.php:226, inc/class-awsm-job-openings-pro-main.php:229
+msgid "Form updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: inc/class-awsm-job-openings-pro-main.php:231
+msgid "Form restored to revision from %s."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:233
+msgid "Form saved."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:234
+msgid "Form submitted."
+msgstr ""
+
+#. translators: %s: scheduled date
+#: inc/class-awsm-job-openings-pro-main.php:236
+msgid "Form scheduled for: %s."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:237
+msgid "Form draft updated."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:684
+msgid "This job is no longer accepting applications."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:685, inc/templates/settings/change-strings.php:68
+msgid "Back to listings"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:36
+msgid "Job Display Options"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:37
+msgid "CC Email Notifications"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:40
+msgid "Actions"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:42
+msgid "Activity Log"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:43
+msgid "Emails"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:46, inc/class-awsm-job-openings-pro-settings.php:102
+msgid "Form Builder"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:50
+msgid "Notifications"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:210
+msgid "Download"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:211
+msgid "Print"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:212, inc/class-awsm-job-openings-pro-meta.php:223
+msgid "Error in fetching the application details!"
+msgstr ""
+
+#. translators: %1$s: Application ID, %2$s: Applied Job
+#: inc/class-awsm-job-openings-pro-meta.php:270
+msgid "Application #%1$s for %2$s"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:275
+msgid " from IP "
+msgstr ""
+
+#. translators: %s: post status
+#: inc/class-awsm-job-openings-pro-meta.php:355
+msgid "Application status: %s"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:414
+msgid "Invalid Job Application ID"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:417
+msgid "You do not have sufficient permissions to edit job applications!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:545
+msgid "Error sending mail!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:558
+msgid "Subject and mail content required!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:578
+msgid "Your message has been successfully sent to the applicant."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:683
+msgid "Error in submitting notes!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:727
+msgid "Error in deleting notes!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:736
+msgid "Invalid key supplied!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:742
+msgid "Invalid timestamp supplied!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:746
+msgid "No notes to delete!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:822
+msgid "Remove Note"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:851
+msgid "Select job"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:871
+msgid "Move application to another job"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:873
+msgid "Move"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-overview.php:46
+msgid "Today"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-overview.php:47
+msgid "This week"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-overview.php:48
+msgid "This month"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-overview.php:49
+msgid "This year"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:46
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:47
+msgid "Advanced"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:50
+msgid "License"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:121
+msgid "Manage Specifications"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:126
+msgid "Admin Filters"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:106, inc/class-awsm-job-openings-pro-settings.php:94
+msgid "General"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:112
+msgid "Job Specs"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:115
+msgid "Jobs Stats"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:98
+msgid "Templates"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:88
+msgid "Change Strings"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:296
+msgid "Text"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:298
+msgid "Number"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:299
+msgid "Phone"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:300
+msgid "Date"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:301
+msgid "Textarea"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:302
+msgid "Dropdown"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:303
+msgid "Radio"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:304
+msgid "Checkbox"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:305
+msgid "Resume"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:306
+msgid "Photo"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:307
+msgid "File"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:308
+msgid "Section"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:372
+msgid "Default form for new openings"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:378, inc/templates/settings/change-strings.php:122
+msgid "Restrict Duplicate Applications"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:383
+msgid "Restrict applicants from submitting duplicate applications for a job listing"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:386
+msgid "If checked, the plugin will validate each application by email and phone number (if available) and restrict duplicate submissions."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:390
+msgid "Form submit confirmation"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:405
+msgid "reCAPTCHA options"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:409
+msgid "Enable reCAPTCHA on the form"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:410
+msgid "Get reCAPTCHA keys"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:425
+msgid "reCAPTCHA type"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:430
+msgid "reCAPTCHA v2"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:434
+msgid "reCAPTCHA v3"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:438
+msgid "IMPORTANT NOTE: reCAPTCHA v2 and v3 Site key and Secret key are different. Using invalid keys will cause a reCAPTCHA error leading to issues with the job application form. Please verify the keys before updating the settings."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:638
+msgid "Error in handling form builder actions!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:644
+msgid "Invalid Form ID"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:647
+msgid "You do not have sufficient permissions to edit form!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:678
+msgid "Copy of"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:768
+msgid "Template Name cannot be empty!"
+msgstr ""
+
+#. translators: %s: user supplied template name
+#: inc/class-awsm-job-openings-pro-settings.php:778
+msgid "Template Name: \"%s\" already exists!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:866
+msgid "Field Options:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:867
+msgid "Please enter options separated by commas"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:896
+msgid "Attach the file with email notifications"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:903
+msgid "The comma-separated list of supported file types."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:919
+msgid "File types can be jpg, png, or gif."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:931
+msgid "Allowed File Types:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:943, inc/templates/settings/change-strings.php:162
+msgid "Maximum Files"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:954
+msgid "Maximum File Size"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:956
+msgid "Maximum allowed file size in megabytes."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:961
+msgid "Enable drag and drop file upload"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:970
+msgid "Template Tag:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:971
+msgid "Template Tag to be used in the notification"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:981
+msgid "Title:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:983
+msgid "Section title"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:986
+msgid "Description:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:988
+msgid "Section description (optional)"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:997
+msgid "Placeholder:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1011
+msgid "Enable country based input"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1015
+msgid "Default Country:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1017
+msgid "Country code to be used as default (two characters in length)"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1029
+msgid "New input field"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1076
+msgid "Field Type:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1136, inc/templates/meta/form-builder.php:132
+msgid "Label:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1166, inc/templates/settings/change-strings.php:137
+msgid "Required Field"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1186, inc/templates/meta/form-builder.php:136, inc/templates/settings/advanced.php:51
+msgid "Close"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1208
+msgid "New Status"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1256
+msgid "Status Label"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1260
+msgid "Status Key"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1265
+msgid "Status Color"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1269
+msgid "Automatically send a notification on status change"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1270
+msgid "Checking this option will automatically notify the applicant based on the template for the selected status."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1273, inc/templates/meta/application-email.php:21
+msgid "Email template"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1275
+msgid "Select a template"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1291, inc/class-awsm-job-openings-pro-settings.php:1362
+msgid "Save"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1293
+msgid "Delete status"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1307
+msgid "(Not Saved...)"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1308
+msgid "New Template"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1332
+msgid "Template Name"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1337
+msgid "Subject "
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1341
+msgid "Content "
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1363
+msgid "Delete template"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1439
+msgid "Featured image size"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1449, inc/templates/generic/custom-form.php:61, inc/templates/settings/change-strings.php:62
+msgid "Position Filled"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1454
+msgid "Hide filled positions from listing page"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1462
+msgid "Back to job listings"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1469
+msgid "Enable back to listings link"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1472
+msgid "Check this option to show back to job listings link in the job detail page"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1483
+msgid "Background Color"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1510, inc/class-awsm-job-openings-pro-settings.php:1541
+msgid "Error in delete status!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1625, inc/class-awsm-job-openings-pro-settings.php:1561
+msgid "Failed to delete status!."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1625, inc/class-awsm-job-openings-pro-settings.php:1623, inc/class-awsm-job-openings-pro-settings.php:1561, inc/class-awsm-job-openings-pro-settings.php:1559
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1619
+msgid "%1$d applications moved to '%2$s'"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:1559
+msgid "Status deleted successfully."
+msgstr ""
+
+#: inc/templates/export/main.php:29
+msgid "No application found!"
+msgstr ""
+
+#: inc/templates/export/main.php:38
+msgid "Export By"
+msgstr ""
+
+#: inc/templates/export/main.php:43
+msgid "Job Listing"
+msgstr ""
+
+#: inc/templates/export/main.php:46, inc/templates/generic/custom-form.php:69, inc/templates/settings/shortcodes.php:198
+msgid "Application Form"
+msgstr ""
+
+#: inc/templates/export/main.php:69
+msgid "Select Job"
+msgstr ""
+
+#: inc/templates/export/main.php:91, inc/templates/generic/custom-form.php:27, inc/templates/settings/form-builder.php:10, inc/templates/settings/form-builder.php:32
+msgid "Default Form"
+msgstr ""
+
+#: inc/templates/export/main.php:159
+msgid "Date Range"
+msgstr ""
+
+#: inc/templates/export/main.php:164
+msgid "Start Date"
+msgstr ""
+
+#: inc/templates/export/main.php:168
+msgid "End Date"
+msgstr ""
+
+#: inc/templates/generic/custom-form.php:9
+msgid "WP Job Openings Application Form (Recommended)"
+msgstr ""
+
+#: inc/templates/generic/custom-form.php:12
+msgid "Custom Button"
+msgstr ""
+
+#: inc/templates/generic/custom-form.php:13
+msgid "Custom Form"
+msgstr ""
+
+#: inc/templates/generic/custom-form.php:16
+msgid "Disable Form"
+msgstr ""
+
+#: inc/templates/generic/custom-form.php:54
+msgid "Exclude this from Job Listing"
+msgstr ""
+
+#: inc/templates/generic/custom-form.php:56
+msgid "This option will exclude job from job listing but will be publicly available"
+msgstr ""
+
+#: inc/templates/generic/custom-form.php:92, inc/templates/settings/form-submit-confirmation.php:51
+msgid "Enter URL"
+msgstr ""
+
+#: inc/templates/generic/custom-form.php:99
+msgid "Button text"
+msgstr ""
+
+#: inc/templates/generic/custom-form.php:106
+msgid "Open in new tab"
+msgstr ""
+
+#: inc/templates/generic/custom-form.php:112
+msgid "Add your code here. Supports form shortcodes and iframe embedding."
+msgstr ""
+
+#. translators: %s: application rating
+#: inc/templates/meta/activity-log.php:61
+msgid "%s-star rated"
+msgstr ""
+
+#: inc/templates/meta/activity-log.php:64
+msgid "Viewed"
+msgstr ""
+
+#: inc/templates/meta/activity-log.php:67
+msgid "Submitted"
+msgstr ""
+
+#. translators: %1$s is the old job title, %2$s is the new job title.
+#: inc/templates/meta/activity-log.php:73
+msgid "transfered from %1$s to %2$s"
+msgstr ""
+
+#: inc/templates/meta/activity-log.php:78
+msgid "Sent email to the applicant"
+msgstr ""
+
+#. translators: %s: application submission time
+#: inc/templates/meta/application-actions.php:32
+msgid "Submitted on: %s"
+msgstr ""
+
+#: inc/templates/meta/application-actions.php:39
+msgid "Status:"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:13
+msgid "New Mail"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:14
+msgid "Sent Mails"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:23
+msgid "No template"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:48
+msgid "Applicant"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:87
+msgid "Sending..."
+msgstr ""
+
+#: inc/templates/meta/application-email.php:87
+msgid "Send"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:116
+msgid "No mails to show!"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:101
+msgid "System"
+msgstr ""
+
+#: inc/templates/meta/application-notes.php:13
+msgid "Write your notes here..."
+msgstr ""
+
+#: inc/templates/meta/form-builder.php:7
+msgid "Go to Form Settings"
+msgstr ""
+
+#: inc/templates/meta/form-builder.php:35
+msgid "Invalid form field settings. Please enter valid values and submit again."
+msgstr ""
+
+#: inc/templates/meta/form-builder.php:42, inc/templates/meta/form-builder.php:45
+msgid "Click to edit"
+msgstr ""
+
+#: inc/templates/meta/form-builder.php:42
+msgid "Form Title"
+msgstr ""
+
+#: inc/templates/meta/form-builder.php:45
+msgid "(Optional description)"
+msgstr ""
+
+#. translators: %s: form field type
+#: inc/templates/meta/form-builder.php:99
+msgid "Sorry! You can only have one %s field."
+msgstr ""
+
+#: inc/templates/meta/form-builder.php:104
+msgid "The template tag should only contain alphanumeric, latin characters separated by hyphen/underscore"
+msgstr ""
+
+#: inc/templates/meta/form-builder.php:123
+msgid "Submit Button"
+msgstr ""
+
+#: inc/templates/meta/form-builder.php:145
+msgid "Add new Field"
+msgstr ""
+
+#: inc/templates/meta/forward-mail.php:22
+msgid "Emails to CC	the application notifications"
+msgstr ""
+
+#: inc/templates/meta/forward-mail.php:24
+msgid "A copy of notifications for this application will be sent to the emails you submit."
+msgstr ""
+
+#: inc/templates/settings/admin-filters.php:39
+msgid "Manage Admin Filters"
+msgstr ""
+
+#: inc/templates/settings/admin-filters.php:44
+msgid "Admin Filters for Jobs"
+msgstr ""
+
+#: inc/templates/settings/admin-filters.php:50
+msgid "Enable filters in Job Openings"
+msgstr ""
+
+#: inc/templates/settings/admin-filters.php:68, inc/templates/settings/admin-filters.php:102
+msgid "Available filters"
+msgstr ""
+
+#: inc/templates/settings/admin-filters.php:78
+msgid "Admin Filters for Applications"
+msgstr ""
+
+#: inc/templates/settings/admin-filters.php:84
+msgid "Enable filters in Job Applications"
+msgstr ""
+
+#: inc/templates/settings/advanced.php:34
+msgid "Manage Application Status"
+msgstr ""
+
+#: inc/templates/settings/advanced.php:50
+msgid "Delete Status?"
+msgstr ""
+
+#: inc/templates/settings/advanced.php:55
+msgid "Are you sure you want to delete the application status "
+msgstr ""
+
+#: inc/templates/settings/advanced.php:59
+msgid "Please add new status"
+msgstr ""
+
+#: inc/templates/settings/advanced.php:65
+msgid "Continue"
+msgstr ""
+
+#: inc/templates/settings/advanced.php:66, inc/templates/settings/advanced.php:92, inc/templates/settings/advanced.php:99
+msgid "Cancel"
+msgstr ""
+
+#: inc/templates/settings/advanced.php:72
+msgid "Select the new status you want to move the existing job under "
+msgstr ""
+
+#: inc/templates/settings/advanced.php:91
+msgid "Move and Delete Status"
+msgstr ""
+
+#: inc/templates/settings/advanced.php:98
+msgid "Confirm"
+msgstr ""
+
+#: inc/templates/settings/advanced.php:110
+msgid "Add new status"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:14
+msgid "Filter Prefix"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:19
+msgid "Filter Suffix"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:24
+msgid "Search Placeholder"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:29
+msgid "Details Link"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:35
+msgid "Load More"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:41
+msgid "Loading"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:47
+msgid "No Filtered Jobs"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:56
+msgid "Expired Job"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:77
+msgid "Field Description (Drag and Drop)"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:83
+msgid "Uploading (Drag and Drop)"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:89
+msgid "Cancel Uploading (Drag and Drop)"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:95
+msgid "Allowed File Types"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:98
+msgid "Comma separated list of allowed file types"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:102
+msgid "Maximum Allowed File Size"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:105, inc/templates/settings/change-strings.php:112, inc/templates/settings/change-strings.php:158
+msgid "Maximum allowed file size"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:109
+msgid "Maximum Allowed File Size (Multiple Uploads)"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:112, inc/templates/settings/change-strings.php:165
+msgid "Maximum Allowed Files"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:116
+msgid "Button Text on Submission"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:128
+msgid "Error Message"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:143
+msgid "Email Field"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:149
+msgid "File Size (Default)"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:155
+msgid "File Size (Drag and Drop)"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:158
+msgid "Selected file size"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:169
+msgid "File Type"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:175
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:181
+msgid "reCAPTCHA"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:200
+msgid "Job Listing Strings"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:200
+msgid "You can change the default strings in the job listing page to any string you want here."
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:203
+msgid "Job Detail Strings"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:203
+msgid "You can change the default strings in the job detail page to any string you want here."
+msgstr ""
+
+#. translators: %1$s: opening anchor tag, %2$s: closing anchor tag
+#: inc/templates/settings/change-strings.php:207
+msgid "You can change the default form related strings to any string you want here. Rest of the strings are customizable from the %1$sForm Settings%2$s."
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:208
+msgid "Form Strings"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:211
+msgid "Form Validation Messages"
+msgstr ""
+
+#: inc/templates/settings/change-strings.php:211
+msgid "You can change the default validation messages to any string you want here."
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:36
+msgid "Manage Forms"
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:46
+msgid "ID"
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:47
+msgid "Name"
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:48
+msgid "Fields"
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:59, inc/templates/settings/form-builder.php:99, inc/templates/settings/form-builder.php:138
+msgid "Edit"
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:60, inc/templates/settings/form-builder.php:100, inc/templates/settings/form-builder.php:139
+msgid "Duplicate"
+msgstr ""
+
+#. translators: %s: form fields count
+#: inc/templates/settings/form-builder.php:66, inc/templates/settings/form-builder.php:107, inc/templates/settings/form-builder.php:146
+msgid "%s fields"
+msgstr ""
+
+#: inc/templates/settings/form-submit-confirmation.php:7
+msgid "Show default message"
+msgstr ""
+
+#: inc/templates/settings/form-submit-confirmation.php:8
+msgid "Show page"
+msgstr ""
+
+#: inc/templates/settings/form-submit-confirmation.php:9
+msgid "Redirect to a URL"
+msgstr ""
+
+#: inc/templates/settings/form-submit-confirmation.php:24
+msgid "Select page"
+msgstr ""
+
+#: inc/templates/settings/form-submit-confirmation.php:43
+msgid "Add your message here."
+msgstr ""
+
+#: inc/templates/settings/mail-templates.php:19
+msgid "Manage Templates"
+msgstr ""
+
+#: inc/templates/settings/mail-templates.php:39
+msgid "Add new template"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:27
+msgid "Generate shortcode"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:34
+msgid "Job listing"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:40
+msgid "All Jobs"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:46
+msgid "Filtered list of jobs"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:55
+msgid "Check the options only if you want to filter the listing by specification(s)."
+msgstr ""
+
+#. translators: %s: specification label
+#: inc/templates/settings/shortcodes.php:66
+msgid "Filter by %s"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:93
+msgid "Enable other job filters"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:96
+msgid "Checking this option enables other applicable filters (partial support)."
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:105
+msgid "Filters"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:107
+msgid "Enable job filters"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:108
+msgid "Checking this option enables filter option"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:112
+msgid "Number of jobs to show"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:115
+msgid "Default Number of Job Listings to display"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:119, inc/templates/settings/shortcodes.php:266
+msgid "Job Status"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:125, inc/templates/settings/shortcodes.php:272
+msgid "Default"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:131, inc/templates/settings/shortcodes.php:278
+msgid "Active"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:137, inc/templates/settings/shortcodes.php:284
+msgid "Expired"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:144
+msgid "Order by"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:147
+msgctxt "shortcode"
+msgid "Date"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:148
+msgctxt "shortcode"
+msgid "ID"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:149
+msgctxt "shortcode"
+msgid "Modified Date"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:150
+msgctxt "shortcode"
+msgid "Post Slug"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:151
+msgctxt "shortcode"
+msgid "Random"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:152
+msgctxt "shortcode"
+msgid "Title"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:157
+msgid "Order"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:163
+msgctxt "shortcode"
+msgid "Ascending"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:169
+msgctxt "shortcode"
+msgid "Descending"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:176
+msgid "Pagination"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:181
+msgid "Enable \"Load More\""
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:183
+msgid "Unchecking this option disables pagination for the listing"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:204, inc/templates/settings/shortcodes.php:235
+msgid "Job"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:207, inc/templates/settings/shortcodes.php:238
+msgid "Select a job"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:297
+msgid "Generate Shortcode"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:307
+msgid "Your shortcode"
+msgstr ""
