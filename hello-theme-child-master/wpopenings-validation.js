@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
 
         if (emailPattern.test(nameValue)) {
             console.log('Validation Error: The name field contains an email address.');
-            var errorMessage = $('<div class="custom-error" style="color: red;">Invalid name: email or URL not allowed.</div>');
+            var errorMessage = $('<div class="custom-error" style="color: red;">Wonderbread</div>');
             nameField.after(errorMessage);
             console.log('Form submission prevented');
             return false; // Ensure the form submission is stopped
