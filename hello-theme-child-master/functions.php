@@ -62,10 +62,37 @@ add_action('wp_enqueue_scripts', 'enqueue_custom_script');
 
 /** Custom validation on WP Openings Forms - Server-side  */
 
-function validate_awsm_applicant_name_field($errors, $data) {
-    if (!empty($data['awsm_applicant_name']) && filter_var($data['awsm_applicant_name'], FILTER_VALIDATE_EMAIL)) {
-        $errors->add('awsm_applicant_name_error', __('The name field should not contain an email address.'));
+function custom_validate_application($response) {
+    // Assuming the form data is available in $_POST
+    $applicant_name = isset($_POST['awsm_applicant_name']) ? sanitize_text_field($_POST['awsm_applicant_name']) : '';
+
+    // Custom validation for applicant name
+    if (filter_var($applicant_name, FILTER_VALIDATE_EMAIL) || preg_match('/https?:\/\/[^\s]+/', $applicant_name)) {
+        return array(
+            'success' => false,
+            'message' => __('The name field may not contain an email address or URL 001.', 'your-text-domain')
+        );
     }
-    return $errors;
+
+    return $response;
 }
-add_filter('wp_job_openings_validate_application_form', 'validate_awsm_applicant_name_field', 10, 2);
+add_filter('aws_form_insert_application', 'custom_validate_application');
+
+// Add this code to your child theme's functions.php file
+
+function custom_awsm_application_validation() {
+    if (!isset($_POST['awsm_applicant_name'])) {
+        return;
+    }
+
+    $applicant_name = sanitize_text_field($_POST['awsm_applicant_name']);
+    if (filter_var($applicant_name, FILTER_VALIDATE_EMAIL) || preg_match('/https?:\/\/[^\s]+/', $applicant_name)) {
+        wp_send_json(array(
+            'success' => false,
+            'error' => __('The name field may not contain an email address or URL 002.', 'your-text-domain')
+        ));
+        exit;
+    }
+}
+add_action('wp_ajax_nopriv_awsm_applicant_form_submission', 'custom_awsm_application_validation', 0);
+add_action('wp_ajax_awsm_applicant_form_submission', 'custom_awsm_application_validation', 0);

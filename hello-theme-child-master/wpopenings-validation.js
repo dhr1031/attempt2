@@ -1,17 +1,19 @@
 jQuery(document).ready(function($) {
-    // Custom validation function
     function validateForm() {
-        var nameField = $('#awsm-applicant-name').val();
-        var textField = "Last";
+        var nameField = $('#awsm-applicant-name');
+        var nameValue = nameField.val();
         var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
         console.log('Name Field:', nameField);
-        console.log('Text Field:', textField);
+        console.log('Name Value:', nameValue);
 
-        if (emailPattern.test(nameField) || emailPattern.test(textField)) {
+        $('.custom-error').remove(); // Remove existing error messages 014
+
+        if (emailPattern.test(nameValue)) {
+            console.log('Validation Error: The name field contains an email address.');
             var errorMessage = $('<div class="custom-error" style="color: red;">The name field should not contain an email address.</div>');
             nameField.after(errorMessage);
-           console.log('Form submission prevented');
+            console.log('Form submission prevented');
             return false; // Ensure the form submission is stopped
         }
 
@@ -19,7 +21,6 @@ jQuery(document).ready(function($) {
         return true;
     }
 
-    // Attach the validateForm function to your form's submit event
     $(document).on('submit', 'form[name="applicationform"]', function(event) {
         console.log('Form submit event triggered');
         var isValid = validateForm();
