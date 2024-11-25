@@ -7,12 +7,13 @@ jQuery(document).ready(function($) {
         console.log('Name Field:', nameField);
         console.log('Name Value:', nameValue);
 
-        $('.custom-error').remove(); // Remove existing error messages 016
+        $('.custom-error').remove(); // Remove existing error messages 017
 
         if (emailPattern.test(nameValue)) {
             console.log('Validation Error: The name field contains an email address.');
             var errorMessage = $('<div class="custom-error" style="color: red;">Wonderbread</div>');
             nameField.after(errorMessage);
+            $('html, body').animate({ scrollTop: $('form[name="applicationform"]').offset().top }, 'slow'); // Scroll to the top of the form
             console.log('Form submission prevented');
             return false; // Ensure the form submission is stopped
         }
