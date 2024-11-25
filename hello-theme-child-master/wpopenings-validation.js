@@ -7,11 +7,11 @@ jQuery(document).ready(function($) {
         console.log('Name Field:', nameField);
         console.log('Name Value:', nameValue);
 
-        $('.custom-error').remove(); // Remove existing error messages 014
+        $('.custom-error').remove(); // Remove existing error messages 015
 
         if (emailPattern.test(nameValue)) {
             console.log('Validation Error: The name field contains an email address.');
-            var errorMessage = $('<div class="custom-error" style="color: red;">The name field should not contain an email address.</div>');
+            var errorMessage = $('<div class="custom-error" style="color: red;">Name field invalid: email or URL.</div>');
             nameField.after(errorMessage);
             console.log('Form submission prevented');
             return false; // Ensure the form submission is stopped

@@ -46,17 +46,17 @@ function enqueue_custom_script() {
 
 add_action('wp_enqueue_scripts', 'enqueue_custom_script');
 
-//function reorder_scripts() {
+function reorder_scripts() {
     // Dequeue the original script
-//    wp_dequeue_script('awsm-job-scripts');
+    wp_dequeue_script('awsm-job-scripts');
 
     // Enqueue your custom script first
-//    wp_enqueue_script('wpopenings-validation', get_stylesheet_directory_uri() . '/wpopenings-validation.js', array('jquery'), '1.0.0', true);
+    wp_enqueue_script('wpopenings-validation', get_stylesheet_directory_uri() . '/wpopenings-validation.js', array('jquery'), '1.0.0', true);
 
     // Re-enqueue the original script after your custom script
-//    wp_enqueue_script('awsm-job-scripts', plugins_url('wp-job-openings/assets/js/script.min.js'), array('jquery'), '3.5.0', true);
-//}
-//add_action('wp_enqueue_scripts', 'reorder_scripts', 999);
+    wp_enqueue_script('awsm-job-scripts', plugins_url('wp-job-openings/assets/js/script.min.js'), array('jquery'), '3.5.0', true);
+}
+add_action('wp_enqueue_scripts', 'reorder_scripts', 999);
 
 
 
@@ -86,10 +86,10 @@ function custom_awsm_application_validation() {
     }
 
     $applicant_name = sanitize_text_field($_POST['awsm_applicant_name']);
-    if (filter_var($applicant_name, FILTER_VALIDATE_EMAIL) || preg_match('/https?:\/\/[^\s]+/', $applicant_name)) {
+    if (filter_var($applicant_name, FILTER_VALIDATE_EMAIL) || preg_match('/https?:\\/\\/[^\\s]+/', $applicant_name)) {
         wp_send_json(array(
             'success' => false,
-            'error' => __('The name field may not contain an email address or URL 002.', 'your-text-domain')
+            'error' => __('Name field invalid: email or URL.', 'your-text-domain')
         ));
         exit;
     }
