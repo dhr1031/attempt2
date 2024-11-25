@@ -89,7 +89,7 @@ function custom_awsm_application_validation() {
     if (filter_var($applicant_name, FILTER_VALIDATE_EMAIL) || preg_match('/https?:\\/\\/[^\\s]+/', $applicant_name)) {
         wp_send_json(array(
             'success' => false,
-            'error' => __('Name field invalid: email or URL.', 'your-text-domain')
+            'error' => __('Invalid name: email or URL not allowed.', 'your-text-domain')
         ));
         exit;
     }
